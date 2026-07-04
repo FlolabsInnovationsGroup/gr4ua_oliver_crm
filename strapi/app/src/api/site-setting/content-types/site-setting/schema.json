@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_setting",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global site settings and configuration"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true,
+      "default": "Flo Labs International"
+    },
+    "siteTagline": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "contactPhone": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "json",
+      "required": false
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "footerText": {
+      "type": "text"
+    },
+    "copyrightText": {
+      "type": "string",
+      "default": "© 2025 Flo Labs International. All rights reserved."
+    }
+  }
+}

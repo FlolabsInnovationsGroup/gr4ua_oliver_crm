@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "methodology_items",
+  "info": {
+    "singularName": "methodology-item",
+    "pluralName": "methodology-items",
+    "displayName": "Methodology Item",
+    "description": "Steps in Flo Labs methodology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "stepNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text"
+    },
+    "SEO_Title": {
+      "type": "string"
+    },
+    "SEO_Keywords": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
