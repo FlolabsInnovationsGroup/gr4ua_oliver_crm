@@ -2,6 +2,7 @@
 # GitHub Copilot & AI
 ############################
 
+.vscode/
 # Don't ignore the copilot instructions - keep them in repo
 # .github/copilot-instructions.md
 # .github/instructions/
@@ -10,7 +11,6 @@
 # IDE & Editor
 ############################
 
-.vscode/
 .idea/
 *.code-workspace
 .DS_Store
